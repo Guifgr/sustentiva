@@ -144,6 +144,13 @@
         padding-top: 20px !important;
     }
 
+    &.navbar-brown{
+        background-color: #800020 !important;
+        box-shadow: none;
+        color: $white-color;
+        padding-top: 20px !important;
+    }
+
     &.bg-white:not(.navbar-transparent){
         a:not(.dropdown-item):not(.btn){
             color: $default-color;

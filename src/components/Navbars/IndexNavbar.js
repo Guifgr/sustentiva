@@ -26,7 +26,7 @@ function IndexNavbar() {
         document.documentElement.scrollTop > 399 ||
         document.body.scrollTop > 399
       ) {
-        setNavbarColor("");
+        setNavbarColor("navbar-brown");
       } else if (
         document.documentElement.scrollTop < 400 ||
         document.body.scrollTop < 400

@@ -3950,6 +3950,12 @@ body {
   color: #fff;
   padding-top: 20px !important;
 }
+.navbar.navbar-brown {
+  background-color: #800020 !important;
+  box-shadow: none;
+  color: #fff;
+  padding-top: 20px !important;
+}
 .navbar.bg-white:not(.navbar-transparent) a:not(.dropdown-item):not(.btn) {
   color: #888;
 }

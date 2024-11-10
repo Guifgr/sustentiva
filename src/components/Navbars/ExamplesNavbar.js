@@ -25,7 +25,7 @@ function ExamplesNavbar() {
         document.documentElement.scrollTop > 399 ||
         document.body.scrollTop > 399
       ) {
-        setNavbarColor("");
+        setNavbarColor("navbar-brown");
       } else if (
         document.documentElement.scrollTop < 400 ||
         document.body.scrollTop < 400
@@ -93,7 +93,7 @@ function ExamplesNavbar() {
               target="_blank"
               id="navbar-brand"
             >
-              Now Ui Kit
+              Sustentiva
             </NavbarBrand>
             <UncontrolledTooltip target="#navbar-brand">
               Designed by Invision. Coded by Creative Tim
@@ -119,14 +119,6 @@ function ExamplesNavbar() {
           >
             <Nav navbar>
               <NavItem>
-                <NavLink to="/index" tag={Link}>
-                  Back to Kit
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="https://github.com/creativetimofficial/now-ui-kit-react/issues?ref=creativetim">
-                  Have an issue?
-                </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink
